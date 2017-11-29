@@ -6,10 +6,8 @@ import com.jtelegram.api.events.message.TextMessageEvent;
 /**
  * A {@link CommandFilter} testing if the command is a given
  * string, with optional case sensitivity.
- *
- * @author Nick Robson
  */
-public class TextFilter extends CommandFilter {
+public class TextFilter extends AbstractCommandFilter {
 
     private final String command;
     private final boolean caseSensitive;

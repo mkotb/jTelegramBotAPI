@@ -7,10 +7,8 @@ import java.util.regex.Pattern;
 /**
  * A {@link CommandFilter} testing if the command matches
  * a certain {@link Pattern regular expression pattern}.
- *
- * @author Nick Robson
  */
-public class RegexFilter extends CommandFilter {
+public class RegexFilter extends AbstractCommandFilter {
 
     private final Pattern pattern;
 
